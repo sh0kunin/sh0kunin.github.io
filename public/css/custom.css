@@ -28,16 +28,26 @@
 }
 
 .resume-section h1 {
-  font-weight: lighter;
+  font-weight: 400;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  /*font-weight: lighter;
   font-size: 1.5rem;
   text-align: left;
-  color: white;
+  color: white;*/
   /*background-color: #505050;*/
-  background: linear-gradient(to right, #282828, #d3d3d3);
+  /*background: linear-gradient(to right, #282828, #d3d3d3);
   padding-top: 20px;
   padding-bottom: 10px;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem;*/
+}
+
+.divider {
+  width: 100px;
+  height: 5px;
+  background-color: #ee6817;
+  margin: 30px 0 50px 0;
 }
 
 .section h1 div{
