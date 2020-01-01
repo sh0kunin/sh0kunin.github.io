@@ -1,217 +1,644 @@
----
-layout: default
-title: Home
----
 <!DOCTYPE html>
-<html>
-<body class="body-class">
-<div class="introduction">
-<h1>Hello,</h1>
-<h2 class="sub-header">I'm Udit. An Android developer with DevOps mindset.</h2>
-<p><b>
-    My Moto: Research, Design, Develop.
-</b></p>
-<img src="/public/assets/generic.png"/>
-</div>
-<p>
-    <b>Short-term goal:</b> I am looking for full time opportunities which allow me to apply my experience and provide an environment for me to learn; I have a diverse profile and am open to pick up new technologies.
-</p>
-
-<p>
-    <b>Long-term goal:</b> 
-</p>
-
-<p>
-    All-time goal: Keep learning, always!
-</p>
-
-<!-- Skill section begin -->
-<section class="resume-section" id="skill-section">
-  <h1>
-    <div>My Skills</div>
-  </h1>
-  <div class="divider"></div>
-</section>
-
-<div class="skill-container">
-  <div class="skills language-kotlin"><div class="skills-text">Kotlin</div></div>
-</div>
-
-
-<div class="skill-container">
-  <div class="skills language-java"><div class="skills-text">Java</div></div>
-</div>
-
-<div class="skill-container">
-  <div class="skills language-ruby"><div class="skills-text">Ruby</div></div>
-</div>
-
-<div class="skill-container">
-  <div class="skills android"><div class="skills-text">Android</div></div>
-</div>
-
-<div class="skill-container">
-  <div class="skills docker"><div class="skills-text">Docker</div></div>
-</div>
-
-<div class="skill-container">
-  <div class="skills kubernetes"><div class="skills-text">Kubernetes</div></div>
-</div>
-
-<div class="skill-container">
-  <div class="skills Jenkins/Teamcity"><div class="skills-text">Jenkins/Teamcity</div></div>
-</div>
-
-<div class="skill-container">
-  <div class="skills graphql"><div class="skills-text">GraphQL</div></div>
-</div>
-
-<div class="skill-container">
-  <div class="skills ansible"><div class="skills-text">Ansible</div></div>
-</div>
-
-<!-- skill section end -->
-
-<section class="resume-section intro" id="timeline-section">
-  <div class="timeline-container">
-    <h1><div>Experience Timeline</div></h1>
-  </div>
-</section>
-
-<section class="timeline">
-  <ol>
-    <li style="width: 0rem" id=>
-      <div class="odd">
-        <p class="heading">
-          <img class="logo" src="/public/assets/expedia_group_logo.jpeg">
-          Senior Software Developer
-        </p>
-        <p class="company-name">Expedia Inc</p>
-        <p class="timeline-date">May 2018 - Present</p>
-        <p class="timeline-content">
-        Full-Stack mobile developer, writing features end-to-end on GraphQL based APIs and Android.
-        </p>
-      </div> 
-    </li>
+<html lang="en">
+  <head>
+    <title>Udit Gupta - Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <li>
-      <div>
-        <p class="heading">
-          <img class="logo" src="/public/assets/agoda_logo.png">
-          Senior Mobile Apps DevOps
-        </p>
-        <p class="company-name">Agoda.</p>
-        <p class="timeline-date">Dec 2016 - Apr 2018</p>
-        <p class="timeline-content">
-          Wrote a parallel distributed UI testing system for Android & iOS. 
-        </p>
-      </div>
-    </li>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <li>
-      <div class="odd">
-        <p class="heading">
-          <img class="logo" src="/public/assets/expedia_group_logo.jpeg">
-          Software Engineer 2
-        </p>
-        <p class="company-name">Expedia Inc</p>
-        <p class="timeline-date">July 2014 - Oct 2016</p>
-        <p class="timeline-content">
-        Wrote Things To Do Line of Business from Scratch on Expedia's Android App.
-        </p>
-      </div>
-    </li>
-
-    <li>
-      <div class="odd">
-        <p class="heading">
-          <img class="logo" src="/public/assets/ibibo_logo.jpeg">
-          Android Developer
-        </p>
-        <p class="company-name">IBIBO WEB PVT LTD</p>
-        <p class="timeline-date">May 2013 - Jun 2014</p>
-        <p class="timeline-content">        
-        Single handedly developed a local marketplace android app - Tradus.
-      </p>
-      </div>
-    </li>
-
-    <li>
-      <div>
-        <p class="heading">
-          <img class="logo" src="/public/assets/micromax_logo.png">
-          Android Developer
-        </p>
-        <p class="company-name">Micromax Informatics Ltd</p>
-        <p class="timeline-date">May 2013 - Sep 2011</p>
-        <p class="timeline-content">        
-        Created android custom ROM’s - Modification in the Android OS source code.
-       </p>
-      </div>
-    </li>
-
-    <li>
-      <div>
-        <p class="heading">
-          <img class="logo" src="/public/assets/tcs_logo.png">
-          Android Developer
-        </p>
-        <p class="company-name">Tata Consultancy Services</p>
-        <p class="timeline-date">Dec 2010 - July 2011</p>
-        <p class="timeline-content">        
-          Introduced to Android and developed internal android app for a Telecom company.
-        </p>
-      </div>
-    </li>
-
-    <li></li>
-  
-  </ol>
-  
-  <div class="arrows">
-    <button class="arrow arrow__prev disabled" disabled>
-      <i class="fas fa-arrow-circle-left fa-5x"></i>
-    </button>
-    <button class="arrow arrow__next disabled">
-      <i class="fas fa-arrow-circle-right fa-5x"></i>
-    </button>
-  </div>
-</section>
-
-
-<!-- Begin Project Section -->
-<div class="projects" id="projects-section">
-    <section class="resume-section"><h1><div>Projects</div></h1></section>
-    <div class="left">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     
-        <!-- Portfolio Website  -->
-        <div class="card">
-            <a href="http://shokunin.github.io/" target="_blank">
-                <div class="card-image">
-                    <img src="public/assets/profile.png"
-                    alt="Orange" />
-                </div>
-            </a>
-            <div class="card-body">
-                <div class="card-title">
-                    <h3>
-                        Portfolio Website
-                    </h3>
-                    <time>
-                        Dec 2019
-                    </time>
-                </div>
-                <div class="card-exceprt">
-                    <p>
-                        Created a personal portfolio website on Github pages. The Website is built on top of Hyde which is 2 column Jekyll theme.
-                        The Website is built entirely using HTML, CSS, and Javascript. 
-                </div>
-                <a class="btn" href="http://sh0kunin.github.io/" target="_blank">Github</a>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><span>U</span>gupta</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <!--
+	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+	      		-->
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section class="hero-wrap js-fullheight">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+          	<div class="text text-center">
+          		<span class="subheading">Hey! I am</span>
+		  				<h1>Udit Gupta</h1>
+			  				<h2>I'm a 
+								  <span
+								     class="txt-rotate"
+								     data-period="2000"
+								     data-rotate='[ "Coder.", "Traveler.", "Learner.", "Life Coach."]'></span>
+								</h2>
+							</div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
+      <div class="mouse">
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+				</a>
+			</div>
+    </section>
 
-</body>
-<script type="text/javascript" src="{{ '/' | relative_url  }}public/js/custom.js"></script>
+    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about.jpg);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<h1 class="big">About</h1>
+		            <h2 class="mb-4">About Me</h2>
+		            <p>I am a DevOps practitioner and a software developer with over 9 years of experience writing highly scalable android applications and GraphQL based APIs. I have played various roles at different organization as a Software developer, Engineering Manager and tooling developer.</p>
+		            <ul class="about-info mt-4 px-md-0 px-2">
+		            	<li class="d-flex"><span>Name:</span> <span>Udit Gupta</span></li>
+		            	<li class="d-flex"><span>Date of birth:</span> <span>January 14, 1989</span></li>
+		            	<li class="d-flex"><span>Email:</span> <span>uditgupta.mail@gmail.com</span></li>
+		            	<li class="d-flex"><span>Phone: </span> <span>+91-9810898274</span></li>
+		            </ul>
+		          </div>
+		        </div>
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+                <p><a href="https://sh0kunin.github.io/images/udit_gupta_resume.pdf" class="btn btn-primary py-3 px-3">Download CV</a></p>
+              </div>
+	          </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-3">
+				    <nav id="navi">
+					    <ul>
+					      <li><a href="#page-1">Education</a></li>
+					      <li><a href="#page-2">Experience</a></li>
+					      <li><a href="#page-3">Skills</a></li>
+					      <li><a href="#page-4">Awards</a></li>
+					    </ul>
+					  </nav>
+					</div>
+					<div class="col-md-9">
+					  <div id="page-1" class= "page one">
+					  	<h2 class="heading">Education</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2006-2010</span>
+		    					<h2>Bachelor of Science in Computer Science</h2>
+		    					<span class="position">Nortcap University</span>
+	    					</div>
+	    				</div>
+					  </div>
+
+					  <div id="page-2" class= "page two">
+					  	<h2 class="heading">Experience</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">May 2018 - Present</span>
+		    					<h2>Senior Software Development Engineer</h2>
+		    					<span class="position">Expedia</span>
+		    					<p> Full-Stack mobile developer, writing features end-to-end on GraphQL based APIs and Android.
+		    					</p>
+								<p> Build a "First To Know" Mobile Apps Monitoring System.
+								</p>
+								<p> Best practices culture(testing, automation & software patterns).
+								</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">December 2016 - April 2018</span>
+		    					<h2>Senior Mobile Apps DevOps</h2>
+		    					<span class="position">Agoda</span>
+		    					<p> Wrote a parallel distributed UI testing system for Android & iOS. </p> 
+		    					<p> Setting up continuous integration and code review processes.</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">July 2014 - Oct 2016</span>
+		    					<h2>Software Development Engineer II</h2>
+		    					<span class="position">Expedia</span>
+		    					<p> Wrote Things To Do Line of Business from Scratch on Expedia's Android App, adding 21 M in revenue for Apps.
+		    					</p>
+								<p> Automated delivery of Expedia's substantial equivalent brands AirAsiaGo, Voyages, Travelocity, Wotif, LastMinute, Samsung, Orbitz.
+								</p>
+								<p> Boosting developer productivity, reducing build time of Android app.
+								</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">May 2013 - Jun 2014</span>
+		    					<h2>Android Developer</h2>
+		    					<span class="position">IBIBO WEB PVT LTD</span>
+		    					<p> Single handedly developed a local marketplace android app - Tradus.</p>
+		    					<p> Acted as an adhesive between the product & development efforts.</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">Sep 2011 - May 2013</span>
+		    					<h2>Android Developer</h2>
+		    					<span class="position">Micromax Informatics Ltd</span>
+		    					<p> Creating android custom ROM’s Modification in the Android OS source code.</p>
+								<p> Developed 3D launchers and utility android applications.</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">Dec 2010 - July 2011</span>
+		    					<h2>Android Developer</h2>
+		    					<span class="position">Tata Consultancy Services</span>
+		    					<p>Introduced to Android and developed internal android app for a Telecom company.</p>
+		    				</div>
+	    				</div>
+					  </div>
+					  <div id="page-3" class= "page three">
+					  	<h2 class="heading">Skills</h2>
+					  	<div class="row progress-circle mb-5">
+					  		<div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">Android</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='90'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">8 yrs<sup class="small"></sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">Dev/Ops</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='45'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">4 yrs<sup class="small"></sup></div>
+						          </div>
+						        </div>
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">APIs</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='20'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">1 yr+<sup class="small"></sup></div>
+						          </div>
+						        </div>
+						      </div>
+						    </div>
+					  	</div>
+					  	<div class="row">
+					  		<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Java</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+										    <span>90%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Kotlin</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+										    <span>85%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Ruby</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+										    <span>40%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Architecture</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+										    <span>80%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Automation/Tooling</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+										    <span>90%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Retrofit/Dagger/Robolectric</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+										    <span>70%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Docker/Kubernetes/Ansible</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										    <span>50%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>TeamCity/Jenkins</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+										    <span>50%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>GraphQL</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+										    <span>40%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+
+					  	</div>
+					  </div>
+					  <div id="page-4" class= "page four">
+					    <h2 class="heading">Awards</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2014</span>
+		    					<h2>Hackathon Winner</h2>
+		    					<span class="position">Samsung</span>
+		    					<p>Developed a vernacular android application for expense management.</p>
+	    					</div>
+	    				</div>
+					  </div>
+					</div>
+			  </div>
+    	</div>
+    </section>
+    <!--
+    <section class="ftco-section ftco-project" id="projects-section">
+    	<div class="container-fluid px-md-0">
+    		<div class="row no-gutters justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">My Projects Media</h2>
+            <p>I work with organizations to enhance, scale and create functional product.</p>
+          </div>
+        </div>
+    		<div class="row no-gutters">
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-2.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-4.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-5.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-6.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+-->
+    <section class="ftco-section ftco-hireme img" style="background-image: url(images/bg_1.jpg)">
+    	<div class="overlay"></div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>I'm <span>Available</span></h2>
+						<p>I see an automated world a better place, believe in data driven decision and take pride in my work..</p>
+						<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Hire me</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>If life is a game, how would you beat your creator?</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+
+               <a href="https://www.linkedin.com/in/udit-gupta-598a093b/"><span class="icon-linkedin"></span></a>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">LinkedIn Profile</h3>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Contact Number</h3>
+		            <p><a href="tel://1234567920">+ 91 9810898274</a></p>
+	            </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Email Address</h3>
+		            <p><a href="mailto:uditgupta.mail@gmail.com">uditgupta.mail@gmail.com</a></p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Website</h3>
+		            <p><a href="http://sh0kunin.github.io/">sh0kunin.github.io/</a></p>
+	            </div>
+	          </div>
+          </div>
+        </div>
+
+        <div class="row no-gutters block-9">
+          <div class="col-md-6 order-md-last d-flex">
+            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+          
+          </div>
+
+          <div class="col-md-6 d-flex">
+          	<div class="img" style="background-image: url(images/about_2.jpg);"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About</h2>
+              <p>I am a self-starter and a lifestyle-entrepreneur.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://www.facebook.com/udit.gupta1"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/sh0kunin/"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.linkedin.com/in/udit-gupta-598a093b/"><span class="icon-linkedin"></span></a></li>
+                <li class="ftco-animate"><a href="https://github.com/sh0kunin"><span class="icon-github"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                <!--
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+            -->
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><a href="tel://919810898274"><span class="icon icon-phone"></span><span class="text">+91 9810898274</span></a></li>
+	                <li><a href="mailto:uditgupta.mail@gmail.com"><span class="icon icon-envelope"></span><span class="text">uditgupta.mail@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
 </html>
